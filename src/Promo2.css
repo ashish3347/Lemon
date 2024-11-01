@@ -1,0 +1,30 @@
+.promo {
+    background-color: #007399; /* Blue background similar to the image */
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    padding: 160px 140px;
+    font-family: Arial, sans-serif;
+}
+
+.promo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.promo-button {
+    background-color: white;
+    color: #007399;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.promo-button:hover {
+    background-color: #e0e0e0; /* Light gray for hover effect */
+}

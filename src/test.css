@@ -1,0 +1,98 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e6f7ff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.blue-text {
+    color: #007bff;
+}
+
+.hamburger {
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* Hidden on larger screens */
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px; /* Bigger font */
+}
+
+.nav-links li a.blue-text {
+    color: #007bff;
+}
+
+/* Side Navigation Styling */
+.side-nav {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Start off-screen */
+    width: 250px;
+    height: 100%;
+    background-color: #f7f7f7;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    padding-top: 60px;
+    transition: left 0.3s ease-in-out;
+}
+
+.side-nav.open {
+    left: 0; /* Slide in */
+}
+
+.side-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-nav ul li {
+    padding: 10px 20px;
+}
+
+.side-nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.side-nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide main nav links */
+    }
+
+    .hamburger {
+        display: block; /* Show hamburger on mobile */
+    }
+}
+
+.blue-circle-container {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Adjust this height as needed */
+    overflow: hidden; /* This hides the extra portion of the blue circle */
+}
+
+

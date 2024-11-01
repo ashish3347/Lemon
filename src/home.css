@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    /* Light gray background */
+}
+
+/* Reset some default styles */
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    background-color: #52a5cf; /* background similar to the first image */
+    padding: 15px;
+    opacity: 0.6; 
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #52a5cf; /* Light blue color */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000; /* Black color for the logo */
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-weight: 50000;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+.nav-links li a:hover {
+    color: #00aaff; /* Change color on hover */
+}
+
+.search-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+main {
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px; /* Add padding for better layout */
+}
+
+.left-container {
+    width: 50%;
+    text-align: left;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for "Sports Shoes" */
+.title {
+    font-size: 78px; /* Large font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Darker color for emphasis */
+    opacity: 0.8;
+}
+
+/* Styling for "Men's Collection" */
+.subtitle {
+    font-size: 36px; /* Large font size for subtitle */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.blue-text {
+    color: #007399; /* Blue color for "Men's" */
+}
+
+/* Styling for paragraph text */
+.description {
+    font-size: 18px; /* Adjust size as needed */
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+/* Styling for "Book Now" button */
+.book-now-button {
+    background-color: rgb(39, 156, 220);
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-now-button:hover {
+    background-color: rgb(80, 80, 120); /* Darken on hover */
+}
+
+
+.right-container {
+    position: relative; /* Important for positioning the circle and shoes */
+    width: 50%;
+    /* height: 500px; Define height for better layout */
+    margin-top: -260px;
+    text-align: right;
+    
+}
+
+.blue-circle-container {
+    margin-left: 100px;
+    position: relative;
+    width: 100%;
+    height: 100%; /* Adjust this height as needed */
+    overflow: visible; 
+}
+
+.blue-circle {
+    position: relative;
+    /* overflow: hidden; */
+    width: 900px; /* Adjusted size */
+    height: 900px;
+    border-radius: 50%;
+    background-color: rgb(133, 133, 212); /* Blue circle color */
+    margin-left: 245px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.shoess{
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    /* overflow: hidden;  */
+}
+
+.shoe-container {
+    margin-top: -550px;
+    position: relative;
+    margin-left: 790px;
+    /* width: 100%; 
+     height: 100%; */
+    /* margin: 0 auto; */
+    pointer-events: none;
+    /* overflow: visible; */
+   
+}
+  
+  
+  .shoe {
+    rotate: 50deg;
+    width: 500px; /* Adjust shoe size */
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+  }
+  
+  
+
+button {
+    background-color: rgb(104, 104, 148);
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(80, 80, 120); /* Darken the button on hover */
+}
+

@@ -1,0 +1,49 @@
+.promo {
+    background-color: #007399; /* Blue background */
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.promo h2 {
+    font-size: 30px; /* Larger base font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust gap between words */
+    flex-wrap: wrap;
+}
+
+.word1 {
+    margin-left: -20px; /* Shift to the left */
+}
+
+.word2 {
+    margin-left: 10px; /* Slight right shift */
+}
+
+.word3 {
+    margin-left: 20px; /* Further right shift */
+}
+
+.word4 {
+    margin-left: 30px; /* Further right shift */
+}
+
+.promo-button {
+    background-color: white;
+    color: #007399;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.promo-button:hover {
+    background-color: #e0e0e0; /* Light gray for hover effect */
+}
