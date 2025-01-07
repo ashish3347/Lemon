@@ -19,12 +19,7 @@ import Promo1 from './Promo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    // <Test2 />
-    // <Promo/>
-    // <ProductGallery/>
-    // <Product/>
-    // <Promo2/>
-    // <Footer/>
+ 
         <App />
   </React.StrictMode>
 );
